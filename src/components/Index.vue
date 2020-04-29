@@ -526,7 +526,7 @@ aside {
     top: 0;
     left: 0;
     width: 90px;
-    background: #20222A;
+    background: #042c5c;
     height: 100%;
     transition: width .3s;
     overflow: auto;

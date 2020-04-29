@@ -51,6 +51,12 @@ export const asyncRoutes = {
         meta: { title: '用户信息' },
         component: () => import('../views/UserInfo.vue'),
     },
+    sendNotification: {
+        path: 'sendNotification',
+        name: 'sendNotification',
+        meta: { title: '发送通知' },
+        component: () => import('../views/sendNotification'),
+    },
 }
 
 const createRouter = () => new Router({

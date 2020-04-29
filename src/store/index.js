@@ -47,6 +47,12 @@ const store = new Vuex.Store({
                     },
                 ],
             },
+            {
+                name: 'sendNotification',
+                text: '发送通知',
+                type: 'md-megaphone',
+                size: 18,
+            },
         ],
     },
     mutations: {
